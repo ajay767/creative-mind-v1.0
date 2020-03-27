@@ -1,0 +1,199 @@
+@media (min-width:124px) {
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Da 2', cursive;
+
+}
+
+
+/* alert box styling */
+
+
+
+.alert_box_main {
+  background-color: #d63447;
+  width: 38%;
+  height: 100px;
+  margin: 15px auto;
+  border-radius: 12px;
+}
+
+.alert_box_main h3 {
+  width: 90%;
+  margin: 5px 5%;
+  text-align: center;
+  color: white;
+  display: inline-block;
+}
+
+.alert_button {
+  background-color: #ffd868;
+  width: 92px;
+  height: 31px;
+text-align: center;
+  margin: 10px 41% 10px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.alert_button:hover {
+  background-color: #7f78d2;
+  color: #fff;
+}
+
+
+
+.span_test{
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  color: white;
+}
+
+
+
+
+ a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+.navbar {
+  height: 45px;
+  width: 100%;
+  background-color: #424874;
+}
+
+.navbar ul {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+
+.navbar ul li {
+  margin: 0px 10px;
+}
+
+.navbar ul li a:hover {
+  color: brown;
+}
+.logo{
+  display: inline;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.nav-company{
+  display: inline;
+  font-size: 30px;
+  padding:0px 0px 0px 5px;
+
+  margin-bottom: 1px;
+  height: 20px;
+}
+
+.ul_li_nav {
+  display: inline;
+}
+
+.navbar h5{
+  display: inline;
+  line-height: 12px;
+  top: 15px;
+}
+
+/* contact block at the bottom css styling */
+.contact_logo{
+margin-right: 5px;
+
+}
+
+.contact_section {
+
+  background-color: #424874;
+  margin:10px auto;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.contact_section a, .contact_section p {
+  display: inline;
+}
+
+
+
+.contact_logo_1{
+  width: 300px;
+  height: 350px;
+position: absolute;
+top: 150px;
+right: 10px;
+}
+.contact_logo_2{
+  width: 260px;
+  height: 310px;
+position: absolute;
+top: 100px;
+left: 19px;
+}
+
+.contact_logo_3{
+  width: 200px;
+  height: 310px;
+position: absolute;
+top: 300px;
+left: 34px;
+}
+.img_contact{
+  display: inline;
+}
+.login_box{
+  width: 30%;
+  margin:70px auto;
+
+  text-align: center;
+  height: 310px;
+  background-color: #a6b1e1;
+  border-radius: 10px;
+
+}
+.profile_pic{
+  width: 100px;
+  height: 100px;
+position: relative;
+top: -50px;
+}
+.login_detail{
+
+}
+.login_boxes{
+  margin-top: 50px;
+}
+
+.login_button{
+  font-size: 20px;
+  color: white;
+  background-color: green;
+  width: 100px;
+  height: 35px;
+
+  margin:auto;
+  margin-top: 15px;
+  border: none;
+  border-radius: 19px;
+}
+.login_detail input[type="text"],input[type="password"]{
+  border: none;
+  width: 200px;
+  border-bottom: 2px solid brown;
+  background:transparent;
+}
+}

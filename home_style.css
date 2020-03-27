@@ -1,0 +1,230 @@
+@media (min-width:124px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Baloo Da 2', cursive;
+  }
+  .span_test {
+    position: absolute;
+    left: 11px;
+    top: 10px;
+    color: white;
+  }
+
+  .bg_icon1 {
+    width: 250px;
+    height: 250px;
+   position: absolute;
+   top: 212px;
+   left: 6%;
+
+  }
+
+  .bg_icon2 {
+    width: 260px;
+    height: 310px;
+position: absolute;
+top: 215px;
+right: 5%;
+  }
+  .bg_icon3 {
+    width: 260px;
+    height: 310px;
+    position: absolute;
+    top: 450px;
+    right: 23%;
+  }
+
+  .bg_icon4 {
+    width: 250px;
+    height: 300px;
+position: absolute;
+top: 450px;
+left: 8%;
+
+
+  }
+
+
+  .contact_logo {
+    color: white;
+    margin: 10px 5px;
+  }
+
+  a {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  .navbar {
+    height: 45px;
+    width: 100%;
+    background-color: #424874;
+  }
+
+  .navbar ul {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+  }
+
+  .navbar ul li {
+    margin: 0px 10px;
+  }
+
+  .navbar ul li a:hover {
+    color: black;
+  }
+
+  .logo {
+    width: 145px;
+    height: 150px;
+    color: white;
+    display: inline;
+    margin-top: -55px;
+    margin-left: 43%;
+    text-align: center;
+  }
+
+  .nav-company {
+    display: inline;
+    font-size: 30px;
+    padding: 0px 0px 0px 5px;
+    margin-bottom: 1px;
+    height: 20px;
+  }
+
+  .logo:hover {
+    color: #b7472a;
+  }
+
+  .ul_li_nav {
+    display: inline;
+  }
+
+  .navbar h5 {
+    display: inline;
+    line-height: 12px;
+    top: 15px;
+  }
+
+  .main_section {
+    display: block;
+    background-color: #a6b1e1;
+    border-radius: 10px;
+    padding: 10px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    margin: 30px auto;
+    line-height: 25px;
+    font-size: 16px;
+  }
+
+  .alert_box_main {
+    background-color: #d63447;
+    width: 38%;
+    height: 100px;
+    margin: 15px auto;
+    border-radius: 12px;
+  }
+
+  .alert_box_main h3 {
+    width: 90%;
+    margin: 5px 5%;
+    text-align: center;
+    color: white;
+    display: inline-block;
+  }
+
+  .alert_button {
+    background-color: #ffd868;
+    width: 92px;
+    height: 31px;
+  text-align: center;
+    margin: 10px 41% 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 7px;
+  }
+
+  .alert_button:hover {
+    background-color: #7f78d2;
+    color: #fff;
+  }
+
+  .main_section h2 {
+    text-align: center;
+    margin: 15px;
+  }
+
+
+    .middle {
+      margin-top: 15px;
+      height: 600px;
+      display: inline-block;
+    }
+  .main_section p {
+    font-family: 'Baloo Da 2', cursive;
+  }
+
+  .signup_button {
+    margin: 20px 20px;
+    width: 92px;
+    height: 31px;
+    color: white;
+    font-size: 15px;
+    background-color: #3b8ced;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .signup_button:hover {
+    background-color: #d63447;
+  }
+
+  .login_button{
+
+    font-size: 15px;
+    margin: 20px 20px;
+    width: 92px;
+    height: 31px;
+    color: white;
+    background-color: #3b8ced;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .signup_button2:hover {
+    background-color: #d63447;
+  }
+
+
+  .contact_section {
+
+    background-color: #424874;
+    margin:auto;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .contact_section a, .contact_section p {
+    display: inline;
+  }
+
+  .team_heading {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    display: inline;
+  }
+
+  .team_name {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+  }
+}

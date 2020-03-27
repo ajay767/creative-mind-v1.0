@@ -1,0 +1,207 @@
+@media (min-width:124px){
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Baloo Da 2', cursive;
+}
+ hr{
+   border: none;
+   border-top: 5px dotted red;
+   width: 100px;
+   margin: auto;
+   text-align: center;
+   margin-bottom: 10px;
+ }
+
+/* NAVBAR CSS CODES*/
+
+.span_test {
+  position: absolute;
+  left: 11px;
+  top: 7px;
+  color: white;
+}
+.navbar h5 {
+  display: inline;
+  line-height: 12px;
+  top: 15px;
+}
+
+.logo {
+  width: 145px;
+  height: 150px;
+  color: white;
+  display: inline;
+
+  margin:auto;
+  margin-top: -55px;
+  text-align: center;
+}
+.navbar {
+  width: 100%;
+  height: 40px;
+  background: #424874;
+  text-align: center;
+}
+
+.navbar ul {
+  position: absolute;
+  right: 10px;
+  margin-top: 10px;
+  display: inline;
+}
+
+.nav_ul_li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  text-transform: uppercase;
+  list-style: none;
+  display: inline;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar_logo {
+  color: white;
+}
+
+
+/* about section edits by css*/
+
+
+
+.about_mid_images{
+  width: 630px;
+  margin: auto;
+
+}
+.about_mid_section{
+  margin-top:60px;
+  height: 400px;
+  overflow: hidden;
+  background: #f4eeff;
+}
+.about_mid_section h2{
+  text-transform: uppercase;
+    margin: auto;
+  margin-bottom: 40px;
+  width: 150px;
+  text-align: center;
+
+}
+.name_underline{
+  border: none;
+  border-top: 2px solid red;
+  width: 100px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+.about_image_details{
+  overflow: hidden;
+  width: 630px;
+  height: 0px;
+  margin:auto;
+}
+.about_image_details h3{
+  width: 150px;
+  margin:10px auto;
+  text-align: center;
+}
+.about_image_details p{
+  width: 500px;
+  margin: auto;
+  text-align: center;
+}
+.about_image_details:target{
+  height: auto;
+}
+.about_mid_images a:hover >img{
+  filter: none;
+}
+.our_sectin_images{
+  width: 100px;
+height: 100px;
+transition: 0.4s all;
+  margin: 10px;
+border-radius: 50%;
+filter: grayscale(100%);
+}
+.border{
+  display: block;
+  height: 5px;
+  width: 100px;
+    margin: auto;
+  margin-bottom: 10px;
+  background-color: #d63447;
+}
+
+
+/*contact section */
+
+
+.contact_section {
+  background-color: #424874;
+  
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+.contact_section a, .contact_section p {
+  display: inline;
+}
+.contact_logo {
+  color: white;
+  margin: 10px 5px;
+}
+
+
+
+/* alert box css style*/
+
+
+.alert_box_main {
+  background-color: #d63447;
+  width: 38%;
+  height: 100px;
+  margin: 15px auto 10px;
+  border-radius: 7px;
+  text-align: center;
+}
+
+
+.alert_cap{
+  position: relative;
+  bottom: 10px;
+
+}
+.alert_box_heading  {
+    display:inline-block;
+  color: white;
+
+    margin:  auto;
+text-align: center;
+}
+
+.alert_button {
+  background-color: #ffd868;
+  width: 92px;
+  height: 31px;
+  margin: 9px auto 9px;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  border-radius: 7px;
+}
+
+.alert_button:hover {
+  background-color: #7f78d2;
+  color: #fff;
+}
+}
